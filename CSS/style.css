@@ -1,20 +1,14 @@
-
-/*
-
-.flex-container {
-    display: flex;
-    height: 600px;
-    align-content: flex-start;
-    padding-left: 12%;
-    flex-wrap: wrap;
-}*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 230%;
     background-color: #31343d;
     color: #31343d;
@@ -43,111 +37,62 @@ nav a {
     text-decoration: underline;
     padding: 10px 15px;
 }
-/*
-#about {
-    display: flex;
-    padding-left: 0%;
-    text-align: justify;
-}*/
-/*
-.content {
-    display: flex;
-    margin-left: 6%;
-}
 
-.item {
-    border: 2px solid black;
-}
-/*
-#work {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 13%;
-}*/
-
-
-
-
-/*
-#contact .content {
-    display: inline-flex;
-    justify-content: space-evenly;
+.hero img {
     width: 100%;
-    
-    align-items: center;
-    padding-left: 4%;
-}*/
-/*
-section h2 {
-    border-right: 2px solid blue;
-    margin-left: 4%;
-    padding-right: 1%;
-    padding-left: 10%;
-}*/
-
-
-
-
-
-/*
-.hero img{
-
-    width:1174px;
-    height:100px;
-}*/
-
-.side {
-    display:flex;
-    flex-direction: column;
-    width:15%;
-    
-    float:left;
-    
-    
-   
+    height: 100px;
 }
 
-.side div{
-    border-right: 2px solid black;
-    padding:10%;
-    text-align: right;
-    
-    
-    
+main {
+    display: flex;
+}
+
+img {
+    border: 2px solid #92ccce;
+}
+
+.container div {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.container {
+    display:flex;
+ 
 }
 
 .box1{
     flex:1;
-
 }
-
 .box2{
-    flex:2;
-}
-
-.box3{
-    flex:1;
-}
-
-.content{
-    display:flex;
-    flex-direction:column;
-    width:65%;
+    flex:4;
 }
 
 
-.content1{
-
-    flex:1;
-   
-}
-
-main{
+.container2 {
     display: flex;
-}
-
-.content2{
-    display:flex;
-    flex-direction: column;
+  
     
 }
+
+.container2 div {
+    border: 2px solid black;
+    padding: 5px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .row2{
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      width:100%;
+  }
+
+
+
+
