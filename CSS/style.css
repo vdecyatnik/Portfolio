@@ -61,37 +61,15 @@ img {
     display:flex;
     flex-wrap: wrap;
     flex: 4;
+    
 
 }
 
-/*
 
-.box3 {
- flex:1;
-}
 
-.box4 {
-    flex: 4;
-    padding-right: 4%;
-}
 
-.box5 {
-    flex: 1;
-}
 
-.box7 {
-    flex: 1;
-}
 
-.box9 {
-    flex: 1;
-}
-
-.box10 {
-    flex: 4;
-    padding-top: 5%;
- 
-}*/
 
 h2 {
     text-align: right;
@@ -105,6 +83,7 @@ a {
     text-decoration: underline;
     color: #92ccce;
     padding: 10px 15px;
+  
     
     
 }
@@ -142,26 +121,48 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 
 .bigphoto {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     margin-right:15%;
 }
  
 .photos2{
     width:42.5%;
-    height:42.5%;
+   /* height:42.5%;*/
 }
 
 .photos3 {
     width: 42.5%;
-    height: 42.5%;
+    /*height: 42.5%;*/
     
 }
 
 
-span h3 em{
-  padding-right:20%;
+ span{
+    position: absolute;
+    width:15%;
+    height:15%;
+    border: 2px solid #92ccce;
+
 }
+
+h3{
+    color:#92ccce;
+}
+
+em{
+    color:#92ccce;
+}
+
+
+
+
+
+
+
+
+
