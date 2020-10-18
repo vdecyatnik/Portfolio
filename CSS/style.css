@@ -57,13 +57,16 @@ img {
 
 .box2 {
     flex: 4;
+    margin-right:10%;
 }
 
 .box3 div {
     flex: 1;
 }
 
-
+.box5{
+    flex:1;
+}
 .row1 {
     display: flex;
     flex-direction: row;
@@ -74,8 +77,34 @@ img {
 .row2 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     width: 100%;
+   
+}
+
+
+.row3{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+
+
+}
+
+.bigphoto{
+    width:800px;
+    margin-left:15%;
+}
+
+
+.photos2{
+
+    width:400px;
+    height:100px;
+    margin-right:4%;
+
 }
 
 /*
