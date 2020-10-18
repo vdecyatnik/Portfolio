@@ -51,41 +51,27 @@ img {
     border: 2px solid #92ccce;
 }
 
-
 .box1 {
     flex: 1;
-    
 }
 
 .box2 {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     flex: 4;
-    
-
 }
-
-
-
-
-
-
 
 h2 {
     text-align: right;
     padding-right: 20%;
     font-size: 40px;
-   
 }
 
 a {
-    display:inline-flex;
+    display: inline-flex;
     text-decoration: underline;
     color: #92ccce;
     padding: 10px 15px;
-  
-    
-    
 }
 
 .row1 {
@@ -121,48 +107,82 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    
 }
 
 .bigphoto {
     width: 100%;
     /*height: 100%;*/
-    margin-right:15%;
+    margin-right: 15%;
 }
- 
-.photos2{
-    width:42.5%;
-   /* height:42.5%;*/
+
+.photos2 {
+    width: 42.5%;
+    /* height:42.5%;*/
 }
 
 .photos3 {
     width: 42.5%;
     /*height: 42.5%;*/
-    
 }
 
-
- span{
+span {
     position: absolute;
-    width:15%;
-    height:15%;
+    width: 15%;
+    height: 15%;
     border: 2px solid #92ccce;
-
+    top: 120%;
+    bottom: 25%;
+    background-color: #92ccce;
 }
 
-h3{
-    color:#92ccce;
+h3 {
+    color: purple;
 }
 
-em{
-    color:#92ccce;
+em {
+    color: purple;
+}
+
+.label3 {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    border: 2px solid #92ccce;
+    top: 180%;
+    bottom: 25%;
+}
+
+.label4 {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    border: 2px solid #92ccce;
+    top: 180%;
+    bottom: 25%;
+    left: 54%;
+}
+
+.label5 {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    border: 2px solid #92ccce;
+    top: 230%;
 }
 
 
+.label6{
+
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    border: 2px solid #92ccce;
+    top: 230%;
+    left:54%;
 
 
 
 
 
 
-
+}
