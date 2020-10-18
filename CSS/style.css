@@ -59,6 +59,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex: 4;
+   position:relative;
 }
 
 h2 {
@@ -117,6 +118,7 @@ a {
 
 .photos2 {
     width: 42.5%;
+    
     /* height:42.5%;*/
 }
 
@@ -130,9 +132,10 @@ span {
     width: 15%;
     height: 15%;
     border: 2px solid #92ccce;
-    top: 120%;
-    bottom: 25%;
     background-color: #92ccce;
+    top:50%;
+    bottom:10%;
+    
 }
 
 h3 {
@@ -142,32 +145,37 @@ h3 {
 em {
     color: purple;
 }
-
+/*project2label*/
 .label3 {
-    position: absolute;
+   position:absolute;
     width: 15%;
-    height: 15%;
+    height: 35%;
     border: 2px solid #92ccce;
-    top: 180%;
-    bottom: 25%;
-}
+    
+   
+    
 
+    
+}
+/*project3label*/
 .label4 {
     position: absolute;
     width: 15%;
     height: 15%;
     border: 2px solid #92ccce;
-    top: 180%;
-    bottom: 25%;
-    left: 54%;
+    left:0%;
+    
+  
 }
-
+/*project4label*/
 .label5 {
     position: absolute;
     width: 15%;
     height: 15%;
     border: 2px solid #92ccce;
-    top: 230%;
+    left:43%;
+    top:50%;
+
 }
 
 
@@ -175,10 +183,9 @@ em {
 
     position: absolute;
     width: 15%;
-    height: 15%;
+    height: 40%;
     border: 2px solid #92ccce;
-    top: 230%;
-    left:54%;
+    left:43%;
 
 
 
