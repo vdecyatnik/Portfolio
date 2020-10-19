@@ -52,18 +52,26 @@ img {
 }
 
 .box1 {
-    flex: 1;
+    width:150px;
 }
 
 .box2 {
     display: flex;
     flex-wrap: wrap;
-    flex: 4;
+    flex: 2;
     position: relative;
     z-index: 0;
     
 }
+.box3{
 
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    position: relative;
+    z-index: 0;
+    
+}
 
 
 h2 {
@@ -119,27 +127,43 @@ a {
 .bigphoto {
     width: 100%;
     /*height: 100%;*/
-    margin-right: 15%;
+    margin-right: 15px;
 }
 
 .photos2 {
-    width: 50px;
+    width: 300px;
     /* height:42.5%;*/
 }
 
 .photos3 {
-    width: 42.5%;
+    width: 300px;
     /*height: 42.5%;*/
 }
 
-.label3, .label4, .label5, .label2, .p1 {
+.label3, .label4, .label5, .label2,  .p1 {
     position: absolute;
     width: 15%;
     height: 15%;
     border: 2px solid #92ccce;
     background-color: #92ccce;
-    top: 50%;
-    bottom: 10%;
+    top: 50px;
+    bottom: 10px;
+}
+
+.label6{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    border: 2px solid #92ccce;
+    background-color: #92ccce;
+    top: 50px;
+    bottom: 10px;
+    right:442.5px;
+  
+
+
+
+
 }
 
 h3 {
