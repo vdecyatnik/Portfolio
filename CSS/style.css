@@ -54,7 +54,8 @@ img {
 }
 
 .box1 {
-    width:150px;
+    width:200px;
+    
 }
 
 .box2 {
@@ -62,35 +63,46 @@ img {
     flex-wrap: wrap;
     flex: 2;
     position: relative;
-    margin-left:100px;
+    margin-left:95px;
+    
+    
+    
    /* z-index: 0;*/
     /*background-image: url(../trianglify-lowres.png);*/
     
 }
 
+.vl2{
+
+    border-right:2px solid #92ccce;
+    height:350px;
+}
+
+.me{
+
+    border-right:2px solid #92ccce;
+    
+}
+
+.phone{
+    border-right:2px solid #92ccce;
+}
 .box3{
     display:flex;
     flex-wrap:wrap;
     flex:2;
     position:relative;
 }
-/*
-.box3{
 
-    display: flex;
-    flex-wrap: wrap;
-    flex: 2;
-    position: relative;
-    z-index: 0;
-    
-    
-}*/
 
 h2 {
     text-align: right;
     padding-right: 20%;
     font-size: 40px;
-    border-right: 3px solid #92ccce;
+    /*border-right: 3px solid #92ccce;*/
+    margin-left:25px;
+    color:#92ccce;
+   
     
 }
 
@@ -98,7 +110,9 @@ a {
     display: inline-flex;
     text-decoration: underline;
     color: #92ccce;
-    padding: 10px 15px;
+    padding-top:30px;
+    padding-left:90px;
+
 }
 
 .row1 {
@@ -139,24 +153,24 @@ a {
 .bigphoto {
     width: 700px;
     height:500px;
-    /*height: 100%;*/
-    /*margin-right: 5px;*/
+   
 }
 
 .photos2 {
     width: 350px;
     height:130px;
-    /* height:42.5%;*/
+    
+   
 }
 
 .photos3 {
     width: 300px;
-    /*height: 42.5%;*/
+    
 }
 
 .label3, .label4, .label5, .label2,  .p1  {
     position: absolute;
-    width: 80px;
+    width: 90px;
     height: 70px;
     border: 2px solid #92ccce;
     background-color: #92ccce;
@@ -164,77 +178,21 @@ a {
     bottom: 10px;
 
 }
-/*
- .label6{
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    border: 2px solid #92ccce;
-    background-color: #92ccce;
-    top: 50px;
-    bottom: 10px;
-    right:442.5px;
-  
 
-
-
-
-}*/
 
 h3 {
     color: purple;
+    font-size:15px;
+    
 }
 
 em {
     color: purple;
 }
 
-/*project2label*/
 
-/*.label3 {
-   position:absolute;
-    width: 15%;
-    height: 35%;
-    border: 2px solid #92ccce;
-    top:65%;*/
 
+
+.links{
+    padding:0;
 }
-
-/*project3label*/
-
-/*.label4 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    border: 2px solid #92ccce;
-    
-    
-    
-
-    
-  
-}
-/*project4label
-.label5 {
-    position: absolute;
-    width: 15%;
-    height: 15%;
-    border: 2px solid #92ccce;
-    left:43%;
-    top:50%;
-
-}
-
-
-.label6{
-
-    position: absolute;
-    width: 15%;
-    height: 40%;
-    border: 2px solid #92ccce;
-    left:43%;
-
-
-
-
-}*/
