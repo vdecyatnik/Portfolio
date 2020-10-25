@@ -14,11 +14,11 @@ h1 {
     color: #31343d;
 }
 
-
-
 .name {
     background-color: #92ccce;
 }
+
+/*Header and nav bar design*/
 
 header {
     display: flex;
@@ -40,9 +40,23 @@ nav a {
     padding: 10px 15px;
 }
 
-.hero img {
+/* image at top of page */
+
+.background-image img {
     width: 100%;
-    height: 100px;
+    height: 80px;
+    background-image: url("trianglify-lowres");
+    position: relative;
+}
+
+/* text on image on top of page */
+
+h4 {
+    position: absolute;
+    top: 100px;
+    right: 75px;
+    background-color: #92ccce;
+    color: purple;
 }
 
 main {
@@ -53,68 +67,68 @@ img {
     border: 2px solid #92ccce;
 }
 
+/* space on left side of page that holds about me work and contact section */
+
 .box1 {
-    width:200px;
-    
+    width: 200px;
 }
+
+/*space in main area that holds photos and projects */
 
 .box2 {
     display: flex;
     flex-wrap: wrap;
     flex: 2;
     position: relative;
-    margin-left:95px;
-    
-    
-    
-   /* z-index: 0;*/
+    margin-left: 95px;
+    /* z-index: 0;*/
     /*background-image: url(../trianglify-lowres.png);*/
-    
 }
 
-.vl2{
+/* vertical line */
 
-    border-right:2px solid #92ccce;
-    height:350px;
+.vl2 {
+    border-right: 2px solid #92ccce;
+    height: 350px;
 }
 
-.me{
-
-    border-right:2px solid #92ccce;
-    
+.me {
+    border-right: 2px solid #92ccce;
 }
 
-.phone{
-    border-right:2px solid #92ccce;
-}
-.box3{
-    display:flex;
-    flex-wrap:wrap;
-    flex:2;
-    position:relative;
+.phone {
+    border-right: 2px solid #92ccce;
 }
 
+/* holds small photos on right hand side of page */
 
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    position: relative;
+}
+
+/* about me work and contact */
 h2 {
     text-align: right;
     padding-right: 20%;
     font-size: 40px;
-    /*border-right: 3px solid #92ccce;*/
-    margin-left:25px;
-    color:#92ccce;
-   
-    
+    margin-left: 25px;
+    color: #92ccce;
 }
+
+
 
 a {
     display: inline-flex;
     text-decoration: underline;
     color: #92ccce;
-    padding-top:30px;
-    padding-left:90px;
-
+    padding-top: 30px;
+    padding-left: 90px;
 }
 
+/* first row on page that holds about me content */
 .row1 {
     display: flex;
     flex-direction: row;
@@ -122,6 +136,7 @@ a {
     width: 100%;
 }
 
+/* second row that holds work and main project photo */
 .row2 {
     display: flex;
     flex-direction: row;
@@ -129,6 +144,7 @@ a {
     width: 100%;
 }
 
+/*row 3 and 4 hold small project photos */
 .row3 {
     display: flex;
     flex-direction: row;
@@ -143,6 +159,7 @@ a {
     width: 100%;
 }
 
+/* holds contact info in fifth row of the page */
 .row5 {
     display: flex;
     flex-direction: row;
@@ -150,25 +167,23 @@ a {
     width: 100%;
 }
 
+/* sizing of main project photo on page */
 .bigphoto {
     width: 700px;
-    height:500px;
-   
+    height: 500px;
 }
 
+/* small photos */
 .photos2 {
     width: 350px;
-    height:130px;
-    
-   
+    height: 130px;
 }
 
 .photos3 {
     width: 300px;
-    
 }
-
-.label3, .label4, .label5, .label2,  .p1  {
+/* positions small labels on top of project images */
+.label3, .label4, .label5, .label2, .p1 {
     position: absolute;
     width: 90px;
     height: 70px;
@@ -176,23 +191,18 @@ a {
     background-color: #92ccce;
     top: 50px;
     bottom: 10px;
-
 }
 
-
+/*text inside labels of projects*/
 h3 {
     color: purple;
-    font-size:15px;
-    
+    font-size: 15px;
 }
 
 em {
     color: purple;
 }
 
-
-
-
-.links{
-    padding:0;
+.links {
+    padding: 0;
 }
