@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -59,10 +55,6 @@ h4 {
     color: purple;
 }
 
-main {
-    width: 100%;
-}
-
 img {
     border: 2px solid #92ccce;
 }
@@ -70,7 +62,13 @@ img {
 /* space on left side of page that holds about me work and contact section */
 
 .box1 {
-    width: 200px;
+    display: flex;
+}
+
+#about, #work{
+   flex-basis:200px;
+    flex-shrink:0;
+    max-width:100%;
 }
 
 /*space in main area that holds photos and projects */
@@ -87,13 +85,14 @@ img {
 
 /* vertical line */
 
-.vl2 {
+/* .vl2 {
     border-right: 2px solid #92ccce;
-    height: 350px;
-}
+    height: 200px;
+} */
 
 .me {
     border-right: 2px solid #92ccce;
+    padding-right:10px;
 }
 
 .phone {
@@ -110,15 +109,14 @@ img {
 }
 
 /* about me work and contact */
+
 h2 {
     text-align: right;
-    padding-right: 20%;
     font-size: 40px;
-    margin-left: 25px;
     color: #92ccce;
+    padding-right:20px;
+    
 }
-
-
 
 a {
     display: inline-flex;
@@ -129,22 +127,30 @@ a {
 }
 
 /* first row on page that holds about me content */
-.row1 {
+
+/* .row1 { 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
+   
+/* } */
 
+
+.row-width{
+    width:200px;
+    flex-shrink:0;
+}
 /* second row that holds work and main project photo */
+
 .row2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+   
 }
 
 /*row 3 and 4 hold small project photos */
+
 .row3 {
     display: flex;
     flex-direction: row;
@@ -160,6 +166,7 @@ a {
 }
 
 /* holds contact info in fifth row of the page */
+
 .row5 {
     display: flex;
     flex-direction: row;
@@ -168,12 +175,15 @@ a {
 }
 
 /* sizing of main project photo on page */
+
 .bigphoto {
-    width: 700px;
-    height: 500px;
+    width: 300%;
+    /* height: 100%; */
+    
 }
 
 /* small photos */
+
 .photos2 {
     width: 350px;
     height: 130px;
@@ -182,8 +192,10 @@ a {
 .photos3 {
     width: 300px;
 }
+
 /* positions small labels on top of project images */
-.label3, .label4, .label5, .label2, .p1 {
+
+.label3, .label4, .label5, .label2 {
     position: absolute;
     width: 90px;
     height: 70px;
@@ -194,6 +206,7 @@ a {
 }
 
 /*text inside labels of projects*/
+
 h3 {
     color: purple;
     font-size: 15px;
@@ -207,63 +220,18 @@ em {
     padding: 0;
 }
 
-/* added media queries for different size screens */
-
-@media screen and (max-width:375px){
-
-  .bigphoto{
-      width:345px;
-  }
-   
-  .box1{
-      width:80px;
-      padding-right:5px;
-
-  }
-
-  .h2 , .me{
-      font-size:15px;
-      
- 
-    }
-
-    .box2{
-        text-align: start;
-
-    }
-
-    h2, .vl2 {
-
-        font-size:15px;
-        height:40px;
-    }
-
-    p{
-
-       font-size:15px;
-       width:300px;
-        
-    }
-
-    .background-image{
-        width:440px;
-    }
-
-    header{
-
-        width:440px;
-
-
-    }
-div , .row5{
-
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
+.container, .row2{
+    width:900px;
+    margin: 0 auto;
+    max-width:100%;
 }
-    
 
 
 
+.paragraph{
+    padding-left:10px;
+}
 
+
+/* added media queries for different size screens */
 
